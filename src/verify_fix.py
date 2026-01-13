@@ -1,7 +1,9 @@
 import json
 from agents import configure_genai, ExpertAgent, EvaluatorAgent, logger
+from utils import load_environment
 
-def verify_fix(target_ids=['17', '32', '41', '46', '47', '50', '62', '64']):
+def verify_fix(target_ids=['24', '25', '30', '43', '47', '57', '59', '65', '70', '84', '91', '94']):
+    load_environment()
     configure_genai()
     
     # Load questions

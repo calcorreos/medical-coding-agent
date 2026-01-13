@@ -27,6 +27,10 @@ def load_environment():
     if not os.getenv("GEMINI_API_KEY"):
         logger.warning("GEMINI_API_KEY not found in environment variables. Functionality will be limited.")
 
+def get_agent_mode():
+    """Returns 'LEGACY' or 'STANDARD'."""
+    return os.getenv("AGENT_MODE", "STANDARD").upper()
+
 def save_json(data: Any, filename: str):
     """Save data to a JSON file."""
     with open(filename, 'w') as f:
