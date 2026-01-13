@@ -253,6 +253,10 @@ def main():
         f.writelines(report_lines)
     
     logger.info(f"Complete. Score: {score}/{total}. Report saved to walkthrough.md")
+    
+    # Print Key-Value Summary
+    from print_kv_summary import print_kv_summary
+    print_kv_summary()
 
 if __name__ == "__main__":
     import time
