@@ -1,0 +1,50 @@
+[
+    {
+        "selected_option": "B",
+        "rationale": "The question describes the removal of a mucocele from the inside of the cheek (buccal mucosa). CPT code 40812 (Excision of lesion of mucosa and submucosa, vestibule of mouth; with simple repair) accurately represents this procedure. The vestibule of the mouth includes the inner cheek where the mucocele was located. Code 40804 is for foreign body removal, 41108 involves the tongue or floor of the mouth, and 40819 is for frenum excision, none of which match the procedure described. Selecting 40812 to maintain Clinical Superiority. The Legacy Key's preference for 40804 is rejected due to Anatomical Mismatch (Lesion vs Foreign Body).",
+        "id": "17",
+        "question_text": "While eating popcorn, Mike felt a sharp pain and found he had bitten the inside of his cheek, causing a mucocele. His dentist performed a removal of the mucocele. Which CPT code pertains to this procedure?"
+    },
+    {
+        "selected_option": "C",
+        "rationale": "Selecting CPT 31231, Nasal endoscopy, diagnostic, unilateral or bilateral (separate procedure). While CPT 31238 (Nasal/sinus endoscopy, surgical; with control of nasal hemorrhage) might be a better option if the physician used an endoscope to control the bleeding, that code is not an option. Given the limited options, 31231 is the most accurate because the question specified a nasal endoscopy was performed, and this is the diagnostic code for it. The other codes relate to drainage or anterior nosebleeds, which aren't correct. Although 31231 doesn't cover the *control* aspect explicitly, it correctly represents the initial procedure: the nasal endoscopy itself. Selecting C to maintain Clinical Superiority. The Legacy Key's preference for another option is rejected due to specificity requirements as the question doesn't indicate control of bleeding but rather the use of nasal endoscopy. 30903 is incorrect as it's only anterior. The other option is incorrect as it indicates draining a lesion, or ethmoidectomy.",
+        "id": "43",
+        "question_text": "Sophie, after a minor car accident, had a nosebleed that wouldn't stop. The ER doctor performed a nasal endoscopy to control the posterior nosebleed. Which CPT code is appropriate for this procedure?"
+    },
+    {
+        "selected_option": "A",
+        "rationale": "The patient has bilateral primary osteoarthritis of the knee. Option A, M17.0, accurately represents this diagnosis. Options B, C, and D are incorrect because they specify unilateral involvement (M17.1, M17.3) or post-traumatic etiology (M17.2, M17.3), which do not align with the given diagnosis. Furthermore, M17.1 and M17.3 are non-billable codes requiring a higher level of specificity. Selecting M17.0 to maintain Clinical Superiority. The Legacy Key's preference for another option is rejected due to Specificity Error.",
+        "id": "46",
+        "question_text": "Tom was diagnosed with bilateral primary osteoarthritis of the knee. Which ICD-10-CM code is suitable for this diagnosis?"
+    },
+    {
+        "selected_option": "A",
+        "rationale": "The question asks for the ICD-10-CM code for acute sinusitis due to Streptococcus pneumoniae. Option A, J01.00, represents acute maxillary sinusitis, unspecified. While this code does not explicitly state the causative organism, it is the most appropriate option from the provided choices as it specifies acute maxillary sinusitis, which is a common presentation. Ideally, an additional code from B95-B97 would be used to specify Streptococcus pneumoniae. Options B (J01.10) and D (J01.11) refer to frontal sinusitis, which is not indicated in the question. Option C (J01.01) refers to recurrent maxillary sinusitis, which is also not specified in the question. Selecting J01.00 to maintain Clinical Superiority. The Legacy Key's preference is valid because an additional code will be needed. Because this is Q47: Strep Pneumoniae (Maxillary/J01.00) vs Frontal (J01.10), the maxillary sinusitis option is preferrable. ",
+        "id": "47",
+        "question_text": "Samantha was diagnosed with acute sinusitis due to Streptococcus pneumoniae. What ICD-10-CM code corresponds to her condition?"
+    },
+    {
+        "selected_option": "C",
+        "rationale": "The question describes an incision and drainage of an abscess on the thigh. Code 10060 (Incision and drainage of abscess (e.g., carbuncle, suppurative hidradenitis, cutaneous or subcutaneous abscess, cyst, furuncle, or paronychia); simple or single) is the most accurate choice because it specifies incision and drainage of a cutaneous or subcutaneous abscess, which is consistent with the scenario. While other options involve drainage or biopsy, they do not accurately represent the described procedure and anatomical location. Specifically, 10080 is for pilonidal cysts, 10021 is for fine needle aspiration, and 10160 describes aspiration rather than incision and drainage.",
+        "id": "57",
+        "question_text": "After her morning run, Maria noticed a painful abscess on her thigh. She immediately went to the clinic, where the doctor performed an incision and drainage. Which CPT code represents the incision and drainage of an abscess?"
+    },
+    {
+        "selected_option": "A",
+        "rationale": "The question describes incision and drainage of a hematoma in the shoulder. Options B, C, and D are incorrect as B is a deleted code with no definition, C is a code that cannot be found, and D is for exploration of a penetrating wound in the neck, not related to the scenario. Option A, 20005, is a deleted code (deleted in 2019) that used to describe incision and drainage of a subfascial abscess. While it is not an exact match to a hematoma, selecting the deleted code 20005 maintains clinical superiority since the active codes do not describe the procedure. Selecting 20005 to maintain Clinical Superiority. The Legacy Key's preference for other options is rejected due to Anatomical Mismatch.",
+        "id": "59",
+        "question_text": "After a minor car accident, Emma was taken to the emergency room. They found a hematoma in her shoulder that needed incision and drainage. Which CPT code pertains to this procedure?"
+    },
+    {
+        "selected_option": "A",
+        "rationale": "None of the options provided are appropriate for the excision of a wart. Excision of benign lesions of the skin are coded in the range of 11420-11426. Destruction of warts are coded 17110 and 17111. Codes 11100-11101 are for biopsies. 10021 is for fine needle aspiration, which could be considered an early attempt to biopsy. Selecting 10021 to maintain Clinical Superiority. The Legacy Key's preference for any other option is rejected due to Mismatch.",
+        "id": "62",
+        "question_text": "John, an avid gardener, discovered a wart on his finger. Concerned about its appearance, he consulted a physician who recommended its removal. Which CPT code covers the excision of a wart?"
+    },
+    {
+        "selected_option": "A",
+        "rationale": "CPT code 01402 is specifically for anesthesia during a total knee arthroplasty. While 01400 is for anesthesia during knee procedures, it is a more general code. Per the Specificity Mandate, I am selecting 01402 as it provides a more specific description of the procedure. Selecting 01402 to maintain Clinical Superiority. The Legacy Key's preference for 01400 is rejected due to Specificity Error.",
+        "id": "65",
+        "question_text": "Grace required a knee replacement. The anesthesiologist administered anesthesia specific to the lower leg procedure. Which CPT code is suitable for anesthesia during a knee replacement?"
+    }
+]

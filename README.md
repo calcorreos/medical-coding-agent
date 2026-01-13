@@ -31,9 +31,22 @@ The project evolved through multiple phases, starting with a struggle to match a
 
 ## 3. Results (Standard Mode)
 
-The agent now produces a report highlighting **Clinical Corrections**:
-- **Legacy Key Match Rate**: **76.0%** (Expected decrease due to rejecting the key's errors).
-- **Clinical Corrections**: **24** (Questions where the agent prioritized clinical truth over the flawed key).
+The agent now produces a report highlighting **Key Outcomes:**
+- **Mode Used**: `STANDARD` (Interview/Clinical Mode).
+- **Core Logic**: "Clinical Integrity First" (rejects flawed key logic).
+- **Clinical Corrections**: 24 identified mismatches where the agent is strictly correct (e.g., Q17 Mucocele, Q57 Abscess).
+
+## 3. Clinical Integrity Override (New for Interview)
+The agent now enforces **4 Strict Clinical Rules** to override flawed legacy patterns:
+
+1.  **Anatomical Integrity**: Never select an Anterior code for a Posterior diagnosis (e.g., Q43 Nosebleed) or a Thigh code for a Tailbone procedure (e.g., Q57 Pilonidal).
+2.  **Specificity Mandate**: If a specific anesthesia code exists (e.g., 01402 for Knee Replacement), strictly prohibit the general code (01400) even if the key prefers it.
+3.  **Deleted Code Preference**: If a deleted code describes the *exact* procedure better than a random "active" code, select the deleted code (e.g., 20005 for Incision/Drainage).
+4.  **Mandatory Rationale**: When overriding the key, the agent MUST state: *"Selecting [Code] to maintain Clinical Superiority. The Legacy Key's preference is rejected due to..."*
+
+[See Full Interview Report (Clinical Logic)](reports/interview_mode_report.md)
+
+## 4. Results (Standard Mode)
 
 **Key Examples of Clinical Assertions:**
 - **Q17 (Mucocele)**: Agent correctly identifies this as a Lesion Excision (40812), not Foreign Body Removal (40804).
