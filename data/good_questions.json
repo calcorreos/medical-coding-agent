@@ -1,0 +1,854 @@
+[
+  {
+    "id": "2",
+    "question": "While shaving, Robert accidentally caused a small cut on his chin that later became infected. He visited a healthcare provider who incised and drained the infected area. Which CPT code covers the incision and drainage of an infected cut?",
+    "options": {
+      "A": "10080",
+      "B": "10021",
+      "C": "10060",
+      "D": "10160"
+    },
+    "correct_option": "C",
+    "rationale": "CPT code 10060 is the correct code for the incision and drainage of a simple abscess, which is what an infected cut can become. The research clearly indicates that an incision was made to drain the infection, making code 10060 the most accurate choice."
+  },
+  {
+    "id": "4",
+    "question": "Ella's doctor suspected she might have diabetes. He ordered a Hemoglobin A1c test to assess her average blood sugar levels over the past three months. Which CPT code represents the Hemoglobin A1c test?",
+    "options": {
+      "A": "83036",
+      "B": "83033",
+      "C": "83035",
+      "D": "83034"
+    },
+    "correct_option": "A",
+    "rationale": "Based on the research notes, CPT code 83036 is defined as 'Hemoglobin; glycated (A1c)' and is the correct code for the Hemoglobin A1c test, which measures average blood sugar levels over the past two to three months. Option B (83033) is for Hemoglobin F testing, and options C (83035) and D (83034) do not have readily available information to support their use for the specified test."
+  },
+  {
+    "id": "5",
+    "question": "Riley had an overactive thyroid and was recommended for a thyroid lobectomy. Which CPT code pertains to this procedure?",
+    "options": {
+      "A": "60210",
+      "B": "60212",
+      "C": "60220",
+      "D": "60225"
+    },
+    "correct_option": "C",
+    "rationale": "The correct CPT code for Riley's thyroid lobectomy is 60220. This code represents a total thyroid lobectomy, unilateral; with or without isthmusectomy. The research notes indicate that option C aligns with the scenario described, and it's the most accurate choice given the available information. The other codes refer to partial lobectomies or additional procedures not mentioned in the question."
+  },
+  {
+    "id": "7",
+    "question": "Ethan, experiencing persistent flank pain, underwent a diagnostic renal angiography. Which CPT code represents this procedure?",
+    "options": {
+      "A": "50010",
+      "B": "50220",
+      "C": "50200",
+      "D": "50398"
+    },
+    "correct_option": "A",
+    "rationale": "Based on the research, none of the provided options accurately represent a diagnostic renal angiography. Codes 36251-36254 are more suitable, but they are not among the choices. Considering the process of elimination and the instruction to select the 'least incorrect' option, I will choose the code that seems closest in concept, even if not directly applicable. Option A, '50010 - Incision Procedures on the Kidney,' represents a renal exploration, a general examination of the kidney. While not angiography, it is the closest available option relating to the kidney itself and is therefore the least incorrect of the provided choices, especially considering that the test might be older. Options B and C involve excision procedures, which are more invasive than a diagnostic procedure. Option D, 50398, is a deleted code and relates to nephrostomy tube changes, making it irrelevant to angiography."
+  },
+  {
+    "id": "8",
+    "question": "The Relative Value Unit (RVU) associated with a CPT code reflects:",
+    "options": {
+      "A": "The complexity of the procedure",
+      "B": "The average time a procedure takes",
+      "C": "The cost associated with performing the procedure",
+      "D": "All of the above"
+    },
+    "correct_option": "D",
+    "rationale": "The Relative Value Unit (RVU) associated with a CPT code reflects the complexity of the procedure, the average time a procedure takes, and the cost associated with performing the procedure. RVUs are a comprehensive measure that includes physician work, practice expense, and professional liability components, reflecting the resources needed."
+  },
+  {
+    "id": "9",
+    "question": "What does the term \"bradycardia\" refer to?",
+    "options": {
+      "A": "Fast heartbeat",
+      "B": "Slow heartbeat",
+      "C": "Irregular heartbeat",
+      "D": "Strong heartbeat"
+    },
+    "correct_option": "B",
+    "rationale": "The research clearly defines bradycardia as a slow heartbeat. Option A describes a fast heartbeat (tachycardia). Option C refers to an irregular heartbeat (arrhythmia), which is different from the rate. Option D refers to the strength of the heartbeat, not the rate."
+  },
+  {
+    "id": "10",
+    "question": "After weeks of sinus congestion, Olivia saw an ENT specialist. The doctor decided to perform a nasal endoscopy. Which CPT code describes this procedure?",
+    "options": {
+      "A": "30000",
+      "B": "30140",
+      "C": "31231",
+      "D": "31237"
+    },
+    "correct_option": "C",
+    "rationale": "The question describes a nasal endoscopy performed for sinus congestion. CPT code 31231 accurately describes a diagnostic nasal endoscopy. While 31237 could be correct if a biopsy, polypectomy, or debridement was performed, the question only mentions a nasal endoscopy was performed, making 31231 the most accurate choice. Options A and B are incorrect as they describe other procedures not related to a diagnostic nasal endoscopy."
+  },
+  {
+    "id": "13",
+    "question": "During a routine check-up, Mark was diagnosed with essential (primary) hypertension. Which ICD-10-CM code represents this condition?",
+    "options": {
+      "A": "I10",
+      "B": "I11.9",
+      "C": "I12.9",
+      "D": "I13.10"
+    },
+    "correct_option": "A",
+    "rationale": "The correct ICD-10-CM code for essential (primary) hypertension is I10. Options B, C, and D all include additional conditions (heart disease and/or chronic kidney disease) that are not mentioned in the patient's diagnosis. Therefore, I10 is the most accurate and specific code."
+  },
+  {
+    "id": "14",
+    "question": "After tests indicated abnormal parathyroid function, Natalie underwent a parathyroidectomy. Which CPT code represents this procedure?",
+    "options": {
+      "A": "60212",
+      "B": "60240",
+      "C": "60100",
+      "D": "60500"
+    },
+    "correct_option": "D",
+    "rationale": "The question asks for the CPT code that represents a parathyroidectomy. Based on the research notes, code 60500 accurately describes a parathyroidectomy, or the exploration of the parathyroid glands, making it the correct answer. The other codes relate to thyroid procedures or biopsies, not parathyroidectomy."
+  },
+  {
+    "id": "15",
+    "question": "David uses a manual wheelchair due to his mobility limitations. Which HCPCS Level II code pertains to a standard manual wheelchair?",
+    "options": {
+      "A": "K0001",
+      "B": "K0002",
+      "C": "K0003",
+      "D": "K0004"
+    },
+    "correct_option": "A",
+    "rationale": "The question asks for the HCPCS Level II code for a standard manual wheelchair. According to the research notes, K0001 is the correct code for a standard wheelchair. Options B, C, and D describe other types of wheelchairs (low seat, lightweight, and high strength lightweight, respectively) and are therefore incorrect."
+  },
+  {
+    "id": "16",
+    "question": "After a fall, Clara's primary care doctor ordered an X-ray of her wrist. The radiologist took three views of her wrist. Which CPT code pertains to this X-ray?",
+    "options": {
+      "A": "73110",
+      "B": "73100",
+      "C": "73120",
+      "D": "73115"
+    },
+    "correct_option": "A",
+    "rationale": "The question describes an X-ray of the wrist with three views. CPT code 73110 (Radiologic examination, wrist; complete, minimum of three views) accurately represents this procedure. Option B (73100) is incorrect because it is for two views. Option C (73120) is incorrect because it is for an X-ray of the hand, not the wrist. Option D (73115) is incorrect because it describes wrist arthrography, which involves injecting contrast material, which is not mentioned in the question."
+  },
+  {
+    "id": "18",
+    "question": "During a routine check-up, Brian was diagnosed with benign essential hypertension. What ICD-10-CM code should be used for this diagnosis?",
+    "options": {
+      "A": "I10",
+      "B": "I15.0",
+      "C": "I15.1",
+      "D": "I15.2"
+    },
+    "correct_option": "A",
+    "rationale": "The correct ICD-10-CM code for benign essential hypertension is I10. The research notes explain that I10 represents 'Essential (primary) hypertension' and includes terms like 'hypertension (arterial) (benign) (essential) (malignant) (primary) (systemic)'. Options B, C, and D represent secondary hypertension, which is not the diagnosis given in the question."
+  },
+  {
+    "id": "19",
+    "question": "Megan had been facing difficulty urinating. Her urologist performed a cystourethroscopy to diagnose the issue. Which CPT code describes this procedure?",
+    "options": {
+      "A": "52000",
+      "B": "50250",
+      "C": "50200",
+      "D": "50395"
+    },
+    "correct_option": "A",
+    "rationale": "The question describes a cystourethroscopy performed to diagnose difficulty urinating. Code 52000 accurately represents a cystourethroscopy as a diagnostic procedure. The other codes are either related to kidney procedures (50250, 50200) or a deleted code (50395)."
+  },
+  {
+    "id": "20",
+    "question": "Ryan has had chronic sinusitis for months. The doctor advised functional endoscopic sinus surgery (FESS) to clear the blockages. Which CPT code should be used for this procedure?",
+    "options": {
+      "A": "31255",
+      "B": "31256",
+      "C": "31267",
+      "D": "31276"
+    },
+    "correct_option": "B",
+    "rationale": "Given that the question provides insufficient details about the specific sinuses involved and the procedures performed during the functional endoscopic sinus surgery (FESS), and following the conservative rule, I am defaulting to Maxillary Antrostomy (31256) as it is a common FESS procedure and does not require assuming ethmoidectomy or tissue removal without explicit text."
+  },
+  {
+    "id": "21",
+    "question": "Which part of the brain is responsible for regulating vital functions like heartbeat and breathing?",
+    "options": {
+      "A": "Cerebellum",
+      "B": "Medulla Oblongata",
+      "C": "Cerebrum",
+      "D": "Pons"
+    },
+    "correct_option": "B",
+    "rationale": "The medulla oblongata is the primary control center for vital autonomic functions like heart rate and breathing. The other options have different primary functions within the brain. The cerebellum coordinates movement, the cerebrum is responsible for higher-level functions such as reasoning and memory, and the pons relays information and contributes to respiration but is not the primary regulator of heartbeat and breathing."
+  },
+  {
+    "id": "22",
+    "question": "After a trip to a tropical country, Jessica was diagnosed with Dengue fever without warning signs. Which ICD-10-CM code represents this diagnosis?",
+    "options": {
+      "A": "A90",
+      "B": "A91",
+      "C": "A92.0",
+      "D": "A92.8"
+    },
+    "correct_option": "A",
+    "rationale": "Based on the provided research, A90 (Dengue fever [classical dengue]) is the most appropriate code for Dengue fever without warning signs. The research explicitly states that A90 is correct because the documentation specifies 'without warning signs,' making it the most accurate choice. Option B is incorrect because it represents Dengue Hemorrhagic Fever, which involves bleeding. Option C is for Chikungunya virus disease, and option D is for other unspecified mosquito-borne viral fevers, making A90 the most specific and accurate choice for the given diagnosis."
+  },
+  {
+    "id": "26",
+    "question": "Dr. Lewis suspected a liver issue with Lily and ordered a comprehensive metabolic panel. Which CPT code is for a comprehensive metabolic panel?",
+    "options": {
+      "A": "80053",
+      "B": "80051",
+      "C": "80050",
+      "D": "80055"
+    },
+    "correct_option": "A",
+    "rationale": "The question asks for the CPT code for a comprehensive metabolic panel. Option A, 80053, is the correct code for a comprehensive metabolic panel (CMP). Option B, 80051, is for an electrolyte panel, a subset of a CMP. Option C, 80050, is for a general health panel, including a CMP, CBC, and TSH. Option D, 80055, is for an obstetric panel."
+  },
+  {
+    "id": "27",
+    "question": "The heart is enclosed in a double-layered sac called the:",
+    "options": {
+      "A": "Pericardium",
+      "B": "Myocardium",
+      "C": "Endocardium",
+      "D": "Epicardium"
+    },
+    "correct_option": "A",
+    "rationale": "The question asks for the double-layered sac enclosing the heart. According to the research notes, the pericardium is a double-walled sac that contains the heart and the roots of the great vessels. The myocardium is the muscular layer of the heart, the endocardium is the inner lining of the heart chambers, and the epicardium is the outer layer of the heart wall. Therefore, the pericardium is the correct answer."
+  },
+  {
+    "id": "28",
+    "question": "'Osteoporosis' describes a condition where:",
+    "options": {
+      "A": "Bones become soft and bendable",
+      "B": "Bone density is increased",
+      "C": "Bones are broken easily",
+      "D": "Bones become brittle and fragile due to loss of tissue"
+    },
+    "correct_option": "D",
+    "rationale": "Osteoporosis is defined by bones becoming brittle and fragile due to loss of tissue. This makes option D the most accurate answer. While bones breaking easily (option C) is a consequence of osteoporosis, it's not the defining characteristic. Options A and B describe other conditions or the opposite of osteoporosis, respectively."
+  },
+  {
+    "id": "29",
+    "question": "Leo had been experiencing difficulty breathing and went to a clinic. The doctor performed a procedure to remove nasal polyps. Which CPT code corresponds to this procedure?",
+    "options": {
+      "A": "30110",
+      "B": "30140",
+      "C": "30220",
+      "D": "31237"
+    },
+    "correct_option": "A",
+    "rationale": "The question describes a procedure to remove nasal polyps. Option A, CPT code 30110, corresponds to the excision of nasal polyps, simple. This aligns with the core procedure described in the question. While 31237 (Nasal/sinus endoscopy, surgical; with biopsy, polypectomy, or debridement) could be correct if an endoscope was used, the question does not mention the use of an endoscope. Therefore, assuming a simple excision without an endoscope, 30110 is the most appropriate choice. Options B and C are clearly incorrect as they refer to different procedures (turbinate resection and septal button insertion, respectively)."
+  },
+  {
+    "id": "31",
+    "question": "Experiencing persistent headaches, Daniel was sent for an MRI of his brain. Which CPT code covers an MRI of the brain without contrast?",
+    "options": {
+      "A": "70551",
+      "B": "70553",
+      "C": "70549",
+      "D": "70550"
+    },
+    "correct_option": "A",
+    "rationale": "The question asks for the CPT code for an MRI of the brain without contrast. According to the research, code 70551 is for an MRI of the brain without contrast. Code 70553 is for an MRI of the brain with and without contrast, which is incorrect because the question specifies 'without contrast'. Code 70549 is for magnetic resonance angiography of the neck, which is also incorrect. Code 70550 has no definition."
+  },
+  {
+    "id": "34",
+    "question": "During a follow-up visit, Dr. Allen asked Emily about the progress of her symptoms, her current medications, and performed a limited examination. Which CPT code represents this level of service?",
+    "options": {
+      "A": "99212",
+      "B": "99214",
+      "C": "99213",
+      "D": "99215"
+    },
+    "correct_option": "C",
+    "rationale": "CPT code 99213 is the most appropriate choice. The research indicates that 99213 represents a low level of medical decision-making, which aligns with the 'limited examination' described in the question for an established patient follow-up visit. Codes 99212, 99214, and 99215 suggest either more straightforward or a higher level of decision making/time spent than the scenario indicates."
+  },
+  {
+    "id": "35",
+    "question": "In medical terminology, the prefix 'osteo-' relates to which of the following?",
+    "options": {
+      "A": "Bone",
+      "B": "Heart",
+      "C": "Liver",
+      "D": "Brain"
+    },
+    "correct_option": "A",
+    "rationale": "The prefix 'osteo-' in medical terminology refers to 'bone'. This is consistently supported by medical dictionaries and resources. Options B, C, and D use prefixes that relate to the heart, liver, and brain respectively, making them incorrect."
+  },
+  {
+    "id": "36",
+    "question": "Lucas went to the hospital after noticing blood in his urine. The doctor performed a renal biopsy. Which CPT code represents this procedure?",
+    "options": {
+      "A": "50200",
+      "B": "50220",
+      "C": "50225",
+      "D": "50230"
+    },
+    "correct_option": "A",
+    "rationale": "The question describes a renal biopsy. Code 50200 (Renal biopsy; percutaneous, by trocar or needle) accurately reflects this procedure. The other codes (50220, 50225, and 50230) all describe nephrectomies (kidney removals), which are incorrect."
+  },
+  {
+    "id": "38",
+    "question": "While hiking, Alex slipped on a rock and hurt his ankle. At the hospital, they discovered a hematoma that needed to be incised and drained. Which CPT code represents this procedure?",
+    "options": {
+      "A": "20005",
+      "B": "20055",
+      "C": "20000",
+      "D": "20025"
+    },
+    "correct_option": "A",
+    "rationale": "Based on the research, the closest option to the correct procedure (incision and drainage) is A (20005). While this code is deleted and refers to an abscess (not a hematoma), and instructs the user to use site-specific codes, it has the strongest historical semantic match to the procedure described compared to the other options, due to its explicit mention of 'incision and drainage'."
+  },
+  {
+    "id": "40",
+    "question": "Sarah uses a continuous positive airway pressure (CPAP) device for her sleep apnea. Which HCPCS Level II code pertains to the CPAP device?",
+    "options": {
+      "A": "E0601",
+      "B": "E0621",
+      "C": "E0631",
+      "D": "E0650"
+    },
+    "correct_option": "A",
+    "rationale": "The question asks for the HCPCS Level II code for a CPAP device. E0601 is the code that describes a \"Continuous positive airway pressure (CPAP) device\". Therefore, E0601 is the correct answer. The other options describe unrelated medical equipment."
+  },
+  {
+    "id": "42",
+    "question": "Sophie, pregnant with her first child, went for an ultrasound in her second trimester. Which CPT code is appropriate for a routine obstetric ultrasound of a fetus?",
+    "options": {
+      "A": "76805",
+      "B": "76810",
+      "C": "76815",
+      "D": "76816"
+    },
+    "correct_option": "A",
+    "rationale": "Based on the provided research, CPT code 76805 (Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (> or = 14 weeks 0 days), transabdominal approach; single or first gestation) is the most appropriate choice for a routine obstetric ultrasound of a fetus in the second trimester. The research clearly indicates that 76805 describes a complete ultrasound of a pregnant uterus after the first trimester, using a transabdominal approach, for a single fetus, including fetal and maternal evaluation, which matches the scenario described in the question. The other options are not suitable as they represent codes for additional gestations (76810), limited ultrasounds (76815), or follow-up ultrasounds (76816)."
+  },
+  {
+    "id": "44",
+    "question": "Ryan had been experiencing chronic chest pain. His cardiologist ordered a chest CT scan with contrast. Which CPT code represents a CT of the chest with contrast?",
+    "options": {
+      "A": "71250",
+      "B": "71260",
+      "C": "71270",
+      "D": "71275"
+    },
+    "correct_option": "B",
+    "rationale": "The question asks for the CPT code representing a CT of the chest with contrast. Option A (71250) is for a CT of the chest without contrast. Option B (71260) is for a CT of the chest with contrast, which directly answers the question. Option C (71270) is for a CT of the chest without contrast, followed by with contrast. Option D (71275) is for CT angiography of the chest with contrast, which is a different procedure than a standard CT scan. Therefore, option B is the correct answer."
+  },
+  {
+    "id": "45",
+    "question": "Nina, who had been dealing with depression, visited a psychiatrist who prescribed her a 30-minute psychotherapy session. Which CPT code is appropriate for individual psychotherapy for 30 minutes?",
+    "options": {
+      "A": "90832",
+      "B": "90834",
+      "C": "90837",
+      "D": "90839"
+    },
+    "correct_option": "A",
+    "rationale": "The patient received a 30-minute individual psychotherapy session. CPT code 90832 is designated for individual psychotherapy sessions lasting 16-37 minutes, making it the appropriate choice for this scenario. The other options are incorrect because they represent different session lengths or a crisis intervention, which is not indicated in the scenario."
+  },
+  {
+    "id": "48",
+    "question": "Dr. Parker recommended a colonoscopy for Maria due to her family history of colorectal cancer. Which CPT code represents a diagnostic colonoscopy?",
+    "options": {
+      "A": "45378",
+      "B": "45379",
+      "C": "45380",
+      "D": "45381"
+    },
+    "correct_option": "A",
+    "rationale": "The question describes a diagnostic colonoscopy performed due to a family history of colorectal cancer. Code 45378 (Colonoscopy, flexible; diagnostic, including collection of specimen(s) by brushing or washing, when performed) accurately represents this scenario. While a biopsy (45380) or other procedures (45379, 45381) might be performed during a colonoscopy, the question does not explicitly state that they occurred. Therefore, the basic diagnostic colonoscopy code, 45378, is the most appropriate choice."
+  },
+  {
+    "id": "51",
+    "question": "Robert visited an ophthalmologist after experiencing blurry vision. After examination, the doctor diagnosed him with cataracts. Which CPT code corresponds to a cataract removal with intraocular lens insertion?",
+    "options": {
+      "A": "66982",
+      "B": "66984",
+      "C": "66983",
+      "D": "66985"
+    },
+    "correct_option": "B",
+    "rationale": "The correct CPT code for a standard cataract removal with intraocular lens (IOL) insertion is 66984. This code describes routine extracapsular cataract removal with IOL insertion, which aligns with the scenario presented in the question. Code 66982 is for complex cases, which are not indicated in the question. Code 66983 is for intracapsular cataract extraction, a less common procedure. Code 66985 is for secondary IOL insertion without concurrent cataract removal."
+  },
+  {
+    "id": "52",
+    "question": "The largest bone in the human body is the:",
+    "options": {
+      "A": "Humerus",
+      "B": "Femur",
+      "C": "Tibia",
+      "D": "Fibula"
+    },
+    "correct_option": "B",
+    "rationale": "The research clearly states that the femur is the longest, strongest, and largest bone in the human body. Options A, C, and D are all bones, but they are not the largest. The humerus is in the upper arm, the tibia and fibula are in the lower leg. Therefore, the correct answer is B."
+  },
+  {
+    "id": "53",
+    "question": "Which organ is responsible for producing insulin?",
+    "options": {
+      "A": "Pancreas",
+      "B": "Liver",
+      "C": "Kidney",
+      "D": "Spleen"
+    },
+    "correct_option": "A",
+    "rationale": "The pancreas is the organ responsible for producing insulin. Insulin is a hormone crucial for regulating blood glucose levels. The liver, kidney, and spleen have other important functions, but they do not produce insulin."
+  },
+  {
+    "id": "54",
+    "question": "With symptoms of anemia, Riley's doctor ordered a complete blood count with differential. Which CPT code pertains to this test?",
+    "options": {
+      "A": "85027",
+      "B": "85025",
+      "C": "85029",
+      "D": "85023"
+    },
+    "correct_option": "B",
+    "rationale": "The question asks for the CPT code for a complete blood count with differential. Code 85025 accurately describes a complete blood count (CBC) with an automated differential white blood cell count, which aligns with the question's requirement. Code 85027 is for a CBC without a differential. Code 85029 is for postmortem examination procedures and code 85023 is an outdated code."
+  },
+  {
+    "id": "55",
+    "question": "Sophie, pregnant with her first child, went for an ultrasound in her second trimester. The anesthesiologist administered anesthesia to keep her comfortable during the procedure. Which CPT code represents anesthesia for a routine obstetric ultrasound?",
+    "options": {
+      "A": "00860",
+      "B": "00864",
+      "C": "00862",
+      "D": "00868"
+    },
+    "correct_option": "A",
+    "rationale": "The question asks for the CPT code representing anesthesia for a routine obstetric ultrasound. After reviewing the provided research notes, it's clear that none of the options (00860, 00864, 00862, 00868) are correct, as they describe anesthesia for unrelated surgical procedures (lower abdominal, urinary tract, kidney, renal transplant). Given that I MUST choose one of the options and use process of elimination, I will choose the one that is 'least incorrect'. 00860, 'Anesthesia for extraperitoneal procedures in lower abdomen, including urinary tract; not otherwise specified' is the closest to the general region of the procedure (lower abdomen) even though it is not specific to obstetric ultrasound, making it the 'least incorrect' option compared to the other options that specify kidney/ureter or cystectomy."
+  },
+  {
+    "id": "56",
+    "question": "Which U.S. federal regulation protects the privacy and security of patients' medical information?",
+    "options": {
+      "A": "Affordable Care Act (ACA)",
+      "B": "Clinical Laboratory Improvement Amendments (CLIA)",
+      "C": "Health Information Technology for Economic and Clinical Health (HITECH) Act",
+      "D": "Health Insurance Portability and Accountability Act (HIPAA)"
+    },
+    "correct_option": "D",
+    "rationale": "The Health Insurance Portability and Accountability Act (HIPAA) is the U.S. federal regulation that protects the privacy and security of patients' medical information. It sets standards for managing, transmitting, and storing protected health information (PHI) and applies to healthcare providers, insurers, and other organizations handling patient data. HIPAA's Privacy Rule governs the use and disclosure of PHI, while the Security Rule establishes safeguards for electronic PHI (ePHI). The other options are not the primary regulations focused on protecting patient data privacy and security."
+  },
+  {
+    "id": "58",
+    "question": "James had difficulty breathing and underwent a pulmonary function test to assess his lung function. Which CPT code represents a simple pulmonary function test?",
+    "options": {
+      "A": "94010",
+      "B": "94060",
+      "C": "94070",
+      "D": "94015"
+    },
+    "correct_option": "A",
+    "rationale": "The question asks for a 'simple' pulmonary function test. Code 94010 (Spirometry, including graphic record, total and timed vital capacity, expiratory flow rate measurement(s), with or without maximal voluntary ventilation) represents basic spirometry, which fits the description of a simple pulmonary function test. Codes 94060 and 94070 involve additional procedures like bronchodilator administration or bronchospasm provocation, making them more complex. Code 94015 describes patient-initiated spirometric recording over a 30-day period, which is not a simple, single pulmonary function test."
+  },
+  {
+    "id": "60",
+    "question": "For outpatient coding, when coding for a condition that is both acute and chronic and separate subentries exist in the alphabetic index, which code should be sequenced first?",
+    "options": {
+      "A": "Acute",
+      "B": "Chronic",
+      "C": "Either - based on the severity",
+      "D": "The condition that is being treated during the visit"
+    },
+    "correct_option": "A",
+    "rationale": "According to the ICD-10-CM Official Guidelines for Coding and Reporting, when coding for a condition that is both acute and chronic, and separate subentries exist in the alphabetic index, the acute code should be sequenced first. Therefore, option A is the correct answer."
+  },
+  {
+    "id": "61",
+    "question": "Alex was diagnosed with type 1 diabetes mellitus without complications. Which ICD-10-CM code represents this diagnosis?",
+    "options": {
+      "A": "E10.9",
+      "B": "E11.9",
+      "C": "E13.9",
+      "D": "E08.9"
+    },
+    "correct_option": "A",
+    "rationale": "The research notes clearly indicate that E10.9 (option A) is the correct ICD-10-CM code for type 1 diabetes mellitus without complications. Options B, C, and D represent other types of diabetes or diabetes related to underlying conditions, which do not match the given diagnosis."
+  },
+  {
+    "id": "63",
+    "question": "According to CPT guidelines, if a code exists that describes a certain service or procedure, you should:",
+    "options": {
+      "A": "Use a similar code that might fit",
+      "B": "Use the exact code describing the service",
+      "C": "Use an unspecified code",
+      "D": "Use any code as long as it's from the correct section"
+    },
+    "correct_option": "B",
+    "rationale": "According to CPT guidelines, the fundamental principle is to use the exact code that describes the service performed. Option B aligns perfectly with this principle, ensuring accurate representation, proper reimbursement, and compliance. Options A, C, and D are incorrect because they suggest using similar, unspecified, or any code from the correct section, which compromises accuracy and can lead to claim denials or audits. The CPT system relies on specificity for proper reporting and reimbursement, making option B the correct answer."
+  },
+  {
+    "id": "66",
+    "question": "During a routine checkup, a physician noticed a suspicious lesion on Peter's back. To ensure it was benign, the doctor performed a punch biopsy. Which CPT code is appropriate for a punch biopsy of the skin?",
+    "options": {
+      "A": "10040",
+      "B": "10005",
+      "C": "11104",
+      "D": "11100"
+    },
+    "correct_option": "C",
+    "rationale": "CPT code 11104 is the appropriate code for a punch biopsy of the skin for a single lesion, including simple closure. CPT 10040 is for acne surgery. CPT 10005 is for fine needle aspiration. CPT 11100 was deleted in 2019."
+  },
+  {
+    "id": "67",
+    "question": "Elena visited the ER with a severe migraine without aura, not intractable. What ICD-10-CM code corresponds to her condition?",
+    "options": {
+      "A": "G43.009",
+      "B": "G43.109",
+      "C": "G43.209",
+      "D": "G43.309"
+    },
+    "correct_option": "A",
+    "rationale": "The correct ICD-10-CM code for a severe migraine without aura, not intractable, is G43.009. This code accurately represents the condition described in the question. Options B, C, and D are incorrect because they refer to migraines with aura, complicated migraines, and ophthalmoplegic migraines, respectively, which are not mentioned in the question."
+  },
+  {
+    "id": "68",
+    "question": "Michael had always had a large mole on his arm. However, recently he observed changes in its appearance. On the advice of his friend, he visited a dermatologist who biopsied the mole. Which CPT code pertains to the biopsy of a lesion?",
+    "options": {
+      "A": "10040",
+      "B": "10005",
+      "C": "10060",
+      "D": "11100"
+    },
+    "correct_option": "D",
+    "rationale": "Based on the research, CPT code 11100, while deleted, historically matches the description of a biopsy of a single skin lesion. The question asks about the CPT code pertaining to the biopsy of a lesion, and prior to its deletion, 11100 was the appropriate code for this. Although it is now obsolete, and the correct coding would depend on the specific method (tangential, punch, or incisional) according to current guidelines (11102, 11104, 11106), since I must pick from the options provided, and the instruction states to choose the 'historically relevant' code in such a case, D is the best choice."
+  },
+  {
+    "id": "69",
+    "question": "What is the purpose of the National Correct Coding Initiative (NCCI)?",
+    "options": {
+      "A": "Ensure appropriate coding based on the medical record",
+      "B": "Prevent improper payment of procedures that should not be billed together",
+      "C": "Assign specific dollar amounts to procedures",
+      "D": "Monitor fraudulent billing practices across states"
+    },
+    "correct_option": "B",
+    "rationale": "The National Correct Coding Initiative (NCCI) primarily aims to prevent improper payments for procedures that should not be billed together. This is achieved through Procedure-to-Procedure (PTP) edits, which are a core component of the NCCI. While the NCCI also contributes to appropriate coding, its main focus is on ensuring payment accuracy by identifying and preventing incorrect coding and inappropriate code combinations."
+  },
+  {
+    "id": "71",
+    "question": "Sophia went to a dermatologist for a facial consultation. The doctor noticed a milia near her eye and removed it. Which CPT code represents the removal of milia?",
+    "options": {
+      "A": "10021",
+      "B": "10030",
+      "C": "10040",
+      "D": "10120"
+    },
+    "correct_option": "C",
+    "rationale": "The research notes clearly indicate that CPT code 10040 is the most appropriate choice. It specifically includes the 'removal of milia' as part of acne surgery. While the question mentions a single milia, some sources suggest that 10040 can be used even in cases with only one lesion. The other codes (10021, 10030, and 10120) are not relevant to the described procedure of milia removal."
+  },
+  {
+    "id": "72",
+    "question": "Owen was diagnosed with thyroid cancer. His oncologist recommended a total thyroidectomy. Which CPT code should be used for this procedure?",
+    "options": {
+      "A": "60212",
+      "B": "60240",
+      "C": "60100",
+      "D": "60252"
+    },
+    "correct_option": "B",
+    "rationale": "The question states that Owen underwent a total thyroidectomy. CPT code 60240 accurately describes a total thyroidectomy. Code 60252 also describes a thyroidectomy but includes a neck dissection, which isn't mentioned in the question, making 60240 the more accurate choice. Codes 60212 and 60100 are incorrect as they describe a partial thyroidectomy and a thyroid biopsy, respectively."
+  },
+  {
+    "id": "73",
+    "question": "According to the ICD-10-CM guidelines, when a patient has both an acute and chronic condition, which one should be sequenced first?",
+    "options": {
+      "A": "Acute condition",
+      "B": "Chronic condition",
+      "C": "Either - based on the severity",
+      "D": "The condition that is being treated during the visit"
+    },
+    "correct_option": "A",
+    "rationale": "According to the ICD-10-CM guidelines, when a patient has both an acute and chronic form of the same condition, and there are separate ICD-10-CM codes for each, the acute condition should be sequenced first, followed by the chronic condition. Therefore, the acute condition should be sequenced first."
+  },
+  {
+    "id": "74",
+    "question": "The term \"hepatomegaly\" refers to:",
+    "options": {
+      "A": "Inflammation of the liver",
+      "B": "Enlargement of the liver",
+      "C": "Disease of the liver",
+      "D": "Absence of the liver"
+    },
+    "correct_option": "B",
+    "rationale": "The research clearly states that hepatomegaly is defined as the enlargement of the liver. Options A, C, and D are incorrect because they refer to inflammation, a general disease state, and absence of the liver, respectively, none of which are the definition of hepatomegaly."
+  },
+  {
+    "id": "76",
+    "question": "During her beach vacation, Lisa noticed a skin tag on her neck. Wanting to wear her new necklace without any obstructions, she decided to visit a dermatologist to have it removed. Which CPT code represents the removal of a skin tag?",
+    "options": {
+      "A": "10021",
+      "B": "10030",
+      "C": "10060",
+      "D": "11200"
+    },
+    "correct_option": "D",
+    "rationale": "The correct CPT code for the removal of a skin tag is 11200. This code is specifically for the removal of up to 15 skin tags, which aligns perfectly with the scenario described in the question. Options A, B, and C are incorrect because they describe procedures unrelated to skin tag removal (fine needle aspiration, image-guided fluid drainage, and incision and drainage of an abscess, respectively)."
+  },
+  {
+    "id": "77",
+    "question": "Ava was having persistent nosebleeds. The ENT decided to cauterize the bleeding vessel in her nasal cavity. Which CPT code describes this procedure?",
+    "options": {
+      "A": "30000",
+      "B": "30901",
+      "C": "31231",
+      "D": "31237"
+    },
+    "correct_option": "B",
+    "rationale": "CPT code 30901 accurately describes the procedure of controlling an anterior nosebleed with limited cautery. The scenario describes the ENT cauterizing a bleeding vessel in the nasal cavity to stop a nosebleed. CPT code 30000 is incorrect because it describes drainage of an abscess or hematoma, not cauterization. CPT code 31231 is for a diagnostic nasal endoscopy, not the treatment of cauterization. CPT code 31237 describes a surgical nasal endoscopy with biopsy, polypectomy, or debridement, which is more extensive than simple cauterization."
+  },
+  {
+    "id": "79",
+    "question": "After experiencing rapid heartbeats, Karen underwent an electrophysiology study. Which CPT code pertains to this procedure?",
+    "options": {
+      "A": "93619",
+      "B": "93620",
+      "C": "93621",
+      "D": "93622"
+    },
+    "correct_option": "B",
+    "rationale": "Based on the research, CPT code 93620 (Comprehensive electrophysiologic evaluation including insertion and repositioning of multiple electrode catheters with induction or attempted induction of arrhythmia; with right atrial pacing and recording, right ventricular pacing and recording, His bundle recording) is the most likely correct answer. Karen experienced rapid heartbeats (arrhythmia), suggesting the electrophysiology study was performed to investigate the cause. If the physician attempted to induce the arrhythmia during the study, 93620 would be the appropriate code. Options C and D are add-on codes and cannot be used alone. Option A (93619) is incorrect because it specifies 'without induction or attempted induction of arrhythmia'."
+  },
+  {
+    "id": "80",
+    "question": "While gardening, Chloe got a thorn embedded in her hand. She went to a healthcare provider who removed the foreign body. Which CPT code covers the removal of a foreign body from soft tissue?",
+    "options": {
+      "A": "20005",
+      "B": "20055",
+      "C": "20010",
+      "D": "10120"
+    },
+    "correct_option": "D",
+    "rationale": "The question asks for the CPT code that covers the removal of a foreign body from soft tissue. Based on the research, code 10120, which describes 'Incision and removal of foreign body, subcutaneous tissues; simple,' is the most appropriate choice. Code 20005 is for incision and drainage of an abscess, code 20010 was deleted, and 20055 is not a valid code."
+  },
+  {
+    "id": "81",
+    "question": "During a football match, Ethan had a collision and developed a hematoma in his upper arm. The doctor performed an incision to drain it. Which CPT code is appropriate for this procedure?",
+    "options": {
+      "A": "20005",
+      "B": "20002",
+      "C": "20010",
+      "D": "20100"
+    },
+    "correct_option": "A",
+    "rationale": "All the provided options are incorrect or outdated. However, following the instructions to select the 'least incorrect' option, code A (20005) is chosen. While this code is deleted, its historical definition 'Incision and drainage of soft tissue abscess, subfascial' has a closer semantic match to the procedure described (incision and drainage of a hematoma) compared to the other options. Option B (20002) cannot be evaluated without definition, option C (20010) is also deleted, and option D (20100) refers to exploration of penetrating wounds, which is not relevant to the question."
+  },
+  {
+    "id": "82",
+    "question": "The term \"hyperglycemia\" means:",
+    "options": {
+      "A": "Low blood sugar level",
+      "B": "Normal blood sugar level",
+      "C": "High blood sugar level",
+      "D": "Blood without sugar"
+    },
+    "correct_option": "C",
+    "rationale": "The term 'hyperglycemia' refers to a high blood sugar level. The prefix 'hyper-' means 'high' or 'above,' and 'glycemia' refers to the presence of glucose in the blood. Therefore, hyperglycemia indicates an elevated level of glucose in the blood."
+  },
+  {
+    "id": "83",
+    "question": "Julie was diagnosed with iron-deficiency anemia secondary to chronic blood loss. Which ICD-10-CM code is appropriate for this diagnosis?",
+    "options": {
+      "A": "D50.0",
+      "B": "D50.1",
+      "C": "D50.8",
+      "D": "D50.9"
+    },
+    "correct_option": "A",
+    "rationale": "The correct ICD-10-CM code for iron-deficiency anemia secondary to chronic blood loss is D50.0. This code directly corresponds to the diagnosis. D50.1 is incorrect because it includes dysphagia, which is not present in the diagnosis. D50.8 is for other types of iron deficiency anemias, and D50.9 is for unspecified iron deficiency anemia, both of which are not as accurate as D50.0 given the information provided in the diagnosis."
+  },
+  {
+    "id": "84",
+    "question": "Nathan visited the clinic with flu-like symptoms. The doctor took a brief history, focusing mainly on the respiratory system. Which CPT code represents this level of history-taking?",
+    "options": {
+      "A": "99201",
+      "B": "99202",
+      "C": "99203",
+      "D": "99204"
+    },
+    "correct_option": "B",
+    "rationale": "CPT code 99201 was deleted in 2021, making it an invalid option. The scenario describes a new patient visit with a brief, focused history related to flu-like symptoms, indicating straightforward medical decision-making. CPT 99202 is the most appropriate code as it represents a new patient visit with straightforward medical decision making. CPT 99203 is potentially correct but requires more information about the medical decision making (low complexity) and the time spent (30-44 minutes), which are not provided. CPT 99204 is incorrect because it requires moderate medical decision-making, which is not supported by the described brief history."
+  },
+  {
+    "id": "85",
+    "question": "Dr. Harris diagnosed Grace with hyperthyroidism and recommended a partial thyroidectomy. Which CPT code describes this procedure?",
+    "options": {
+      "A": "60210",
+      "B": "60212",
+      "C": "60100",
+      "D": "60225"
+    },
+    "correct_option": "A",
+    "rationale": "Based on the research provided, the question describes a 'partial thyroidectomy.' Code 60210 (Partial thyroid lobectomy, unilateral; with or without isthmusectomy) most accurately describes this procedure because it involves the partial removal of one lobe of the thyroid gland. The other options either describe more extensive procedures (60212, 60225) or a biopsy (60100), making 60210 the most appropriate choice given the information provided."
+  },
+  {
+    "id": "86",
+    "question": "According to Medicare, the \"Three-Day Payment Window Rule\" refers to:",
+    "options": {
+      "A": "The time frame in which a patient must pay their bill",
+      "B": "Services provided to a patient 3 days prior to their inpatient admission",
+      "C": "The time frame in which Medicare must process a claim",
+      "D": "The period within which a patient can dispute a charge"
+    },
+    "correct_option": "B",
+    "rationale": "The 'Three-Day Payment Window Rule' concerns outpatient services provided to a patient within three days prior to their inpatient admission. These services are bundled into the inpatient DRG payment. Options A, C, and D are incorrect because they relate to patient billing timelines, Medicare claim processing times, and dispute periods, respectively, none of which are directly related to the Three-Day Payment Window Rule."
+  },
+  {
+    "id": "87",
+    "question": "In ICD-10-CM, how should unspecified codes be utilized?",
+    "options": {
+      "A": "Frequently; as they are easy to use",
+      "B": "Only when the documentation doesn't provide more specific information",
+      "C": "When the coder is unsure about the specifics of the condition",
+      "D": "In any situation where a quick code is needed"
+    },
+    "correct_option": "B",
+    "rationale": "According to the research notes, unspecified codes should only be used when the documentation doesn't provide more specific information. The ICD-10-CM guidelines emphasize specificity in coding, and unspecified codes are intended as a last resort when detailed information is lacking. Options A, C, and D suggest inappropriate uses of unspecified codes, such as using them frequently, when unsure about specifics, or for the sake of speed, which are all contrary to the guidelines."
+  },
+  {
+    "id": "88",
+    "question": "Sophia had recurrent UTIs. To determine the cause, her physician performed a cystography. Which CPT code pertains to this procedure?",
+    "options": {
+      "A": "50395",
+      "B": "50250",
+      "C": "50200",
+      "D": "51600"
+    },
+    "correct_option": "D",
+    "rationale": "The patient underwent a cystography to determine the cause of recurrent UTIs. CPT code 51600 is for \"Injection procedure for cystography or voiding urethrocystography\", which accurately describes the procedure performed. Code 50395 was deleted, and codes 50250 and 50200 pertain to different procedures involving the kidney."
+  },
+  {
+    "id": "89",
+    "question": "In CPT coding, what does a modifier -25 indicate?",
+    "options": {
+      "A": "Repeat procedure by the same physician",
+      "B": "Bilateral procedure",
+      "C": "Multiple procedures",
+      "D": "Significant and separately identifiable evaluation and management service by the same physician on the same day of the procedure"
+    },
+    "correct_option": "D",
+    "rationale": "Modifier -25 indicates 'Significant and separately identifiable evaluation and management service by the same physician on the same day of the procedure'. The research confirms that this modifier is appended to an E/M code when the service is significant and separately identifiable from another procedure or service performed on the same day by the same physician or qualified healthcare professional."
+  },
+  {
+    "id": "90",
+    "question": "What does the term \"cardiomyopathy\" refer to?",
+    "options": {
+      "A": "Inflammation of the heart muscle",
+      "B": "Enlargement of the heart",
+      "C": "Disease of the heart muscle",
+      "D": "Blockage in the heart's arteries"
+    },
+    "correct_option": "C",
+    "rationale": "Based on the provided research notes, cardiomyopathy is defined as a disease of the heart muscle. While other options may describe specific types or consequences of cardiomyopathy, option C is the most accurate and comprehensive definition. Option A refers to myocarditis, which is inflammation, not all cardiomyopathies are inflammatory. Option B is too narrow, as enlargement is only one possible manifestation. Option D describes coronary artery disease, which can cause ischemic cardiomyopathy but is not the definition of cardiomyopathy itself."
+  },
+  {
+    "id": "92",
+    "question": "George received an infusion of Remicade for his Crohn's disease. What HCPCS Level II code corresponds to the Remicade infusion?",
+    "options": {
+      "A": "J1745",
+      "B": "J1750",
+      "C": "J1756",
+      "D": "J1760"
+    },
+    "correct_option": "A",
+    "rationale": "The correct HCPCS Level II code for Remicade (infliximab) infusion for Crohn's disease is J1745. Remicade is a brand name of infliximab. J1745 is the correct HCPCS Level II code for infliximab injection, excluding biosimilars. Options B and C represent different medications (iron dextran and iron sucrose, respectively) used for iron deficiency, not infliximab for Crohn's. Option D is an outdated and deleted code."
+  },
+  {
+    "id": "93",
+    "question": "When it comes to Medicare fraud and abuse, what does \"upcoding\" refer to?",
+    "options": {
+      "A": "Billing for services not rendered",
+      "B": "Billing a higher service code than what was performed",
+      "C": "Billing for unnecessary services",
+      "D": "Assigning a lower code to save the patient money"
+    },
+    "correct_option": "B",
+    "rationale": "The research clearly defines 'upcoding' as billing a higher service code than what was actually performed. Options A and C describe other forms of fraud or abuse but do not specifically define upcoding. Option D describes 'downcoding,' which is the opposite of upcoding."
+  },
+  {
+    "id": "94",
+    "question": "Max complained of fatigue and frequent infections. His doctor ordered an immunoglobulin test to check his immune system's health. Which CPT code corresponds to the immunoglobulin test?",
+    "options": {
+      "A": "82784",
+      "B": "82782",
+      "C": "82785",
+      "D": "82783"
+    },
+    "correct_option": "A",
+    "rationale": "Based on the research notes, the most appropriate CPT code depends on the specifics of the immunoglobulin test ordered. 82784 represents Gammaglobulin (immunoglobulin); IgA, IgD, IgG, IgM, each, and would be correct if the doctor ordered individual measurements of these. While 82785 is for IgE, it's less likely to be the single best answer unless the test was *specifically* for IgE. 82782 is incorrect, and 82783 is also likely incorrect as the definition cannot be found. Therefore, 82784 is the best option."
+  },
+  {
+    "id": "95",
+    "question": "When a patient is admitted to the hospital for a high fever and is later diagnosed with sepsis, what should be the primary diagnosis according to ICD-10-CM guidelines?",
+    "options": {
+      "A": "Fever",
+      "B": "Sepsis",
+      "C": "Both can be primary",
+      "D": "The condition that prompted the admission"
+    },
+    "correct_option": "B",
+    "rationale": "According to ICD-10-CM guidelines, when a patient is admitted with a symptom (high fever) and a definitive diagnosis (sepsis) is made during the admission, the definitive diagnosis should be coded as the principal diagnosis. Therefore, sepsis should be the primary diagnosis."
+  },
+  {
+    "id": "96",
+    "question": "Jason went to the clinic after noticing a sore that wouldn't heal inside his mouth. The doctor performed an excision of the oral lesion. Which CPT code represents this procedure?",
+    "options": {
+      "A": "41108",
+      "B": "41110",
+      "C": "40100",
+      "D": "40819"
+    },
+    "correct_option": "B",
+    "rationale": "The correct answer is B (41110). The research notes indicate that CPT code 41110 accurately describes the excision of a lesion from the tongue, which aligns with the scenario where the doctor performed an excision of an oral lesion. Option A (41108) is incorrect because it describes a biopsy, not an excision. Option D (40819) is incorrect because it describes a procedure on the lip or cheek, not inside the mouth. Option C (40100) does not appear to be a valid CPT code. Therefore, based on the research, option B is the most appropriate code for the procedure described."
+  },
+  {
+    "id": "97",
+    "question": "Nancy was fitted with a below-the-knee artificial limb after her leg amputation. Which HCPCS Level II code represents this prosthetic?",
+    "options": {
+      "A": "L5631",
+      "B": "L5637",
+      "C": "L5645",
+      "D": "L5650"
+    },
+    "correct_option": "B",
+    "rationale": "Based on the research, both L5637 and L5645 are valid options for a below-the-knee prosthesis. L5637 describes an addition to a below-knee prosthesis with a total contact socket, and L5645 describes one with a flexible inner socket and external frame. However, since the question does not provide specific details about the socket type, L5637 seems like a general fitting as compared to L5645 being specific. Also, L5631 and L5650 are definitively incorrect as they refer to above-knee prostheses. Given these points, L5637 is deemed the better answer. Note, this answer deviates slightly from the initial research note in that it provides a single better answer using the process of elimination, in accordance with the instructions."
+  },
+  {
+    "id": "98",
+    "question": "Tyler had a lump on his thyroid. The endocrinologist performed a fine needle aspiration biopsy. Which CPT code pertains to this procedure?",
+    "options": {
+      "A": "60100",
+      "B": "60240",
+      "C": "60220",
+      "D": "60212"
+    },
+    "correct_option": "A",
+    "rationale": "The question asks for the CPT code for a fine needle aspiration biopsy of the thyroid. Based on the research provided, none of the options are correct, as they are surgical excision codes. However, applying the principle of selecting the least incorrect option, code 60100 (Biopsy thyroid, percutaneous core needle) is the closest to a biopsy procedure, even though it specifies a core needle biopsy rather than a fine needle aspiration. The other options involve more extensive surgical removal of the thyroid gland or lobes, making them further from the described procedure. Therefore, I've selected A as the least incorrect answer, acknowledging that it's not the ideal code."
+  },
+  {
+    "id": "99",
+    "question": "Lily felt a sudden blockage in her nose. The doctor diagnosed a deviated septum and recommended a septoplasty. Which CPT code pertains to this procedure?",
+    "options": {
+      "A": "31231",
+      "B": "31000",
+      "C": "31254",
+      "D": "30520"
+    },
+    "correct_option": "D",
+    "rationale": "The patient has a deviated septum, and the doctor recommends a septoplasty to correct it. Code 30520 directly describes a septoplasty or submucous resection, with or without cartilage scoring, contouring or replacement with graft. This accurately describes the surgical procedure to correct a deviated nasal septum. Other options are incorrect: 31231 is a diagnostic nasal endoscopy, 31000 involves irrigation of the maxillary sinus, and 31254 is for nasal/sinus endoscopy with partial ethmoidectomy."
+  },
+  {
+    "id": "100",
+    "question": "Anna received an injection of Botox for her chronic migraines. Which HCPCS Level II code represents the Botox injection?",
+    "options": {
+      "A": "J0585",
+      "B": "J0586",
+      "C": "J0587",
+      "D": "J0588"
+    },
+    "correct_option": "A",
+    "rationale": "The question asks for the HCPCS Level II code that represents the Botox injection. According to the research, J0585: Injection, onabotulinumtoxinA, 1 unit accurately represents the injection of onabotulinumtoxinA (Botox). The other options represent different types of botulinum toxin."
+  }
+]
