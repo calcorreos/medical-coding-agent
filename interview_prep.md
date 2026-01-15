@@ -2,13 +2,27 @@
 
 Based on your implementation of the Medical Coding Agent and the specific job description provided, here is a breakdown of the questions you should expect and how to prepare.
 
+> [!IMPORTANT]
+> **Recruiter Insight (Ayush)**:
+> "The codes are outdated which makes certain tools like web search not work as well... We are more curious on how you tackle these challenges... similar to what we face as a company rather than the absolute outcome."
+>
+> **Takeaway**: The "struggle" with the mismatches IS the test. Do not hide the fact that the answer key was wrong; highlight how you *managed* it.
+
 ## 1. The "Meta" Strategy (The Strongest Talking Point)
 
-You discovered a critical insight: **The answer key was flawed (using outdated or incorrect logic), but the goal was to "score high."**
+You discovered a critical insight: **The answer key was flawed, but the goal was to "score high."** By successfully navigating this, you demonstrated the 3 core pillars they are looking for:
 
-*   **Likely Question:** "You noticed the answer key had errors. Walk us through your decision-making process on how to handle that."
-    *   **Your Answer:** Explain the "Dual Mode" architecture. You built a **Legacy Mode** to demonstrate you can hit the metric (reverse-engineering their logic) and an **Interview Mode** (Standard Mode) to demonstrate you can build a product that is actually *useful* and clinically accurate.
-    *   **The "Why":** This proves you have "Product Sense" — you understand that in the real world (RCM), strict accuracy prevents denials, but in a test environment, hitting the metric proves capability.
+### 1. Clear Objectives Met ("Get as high as possible")
+*   **The Win**: You didn't just complain about the bad data; you built a **Legacy Mode** to reverse-engineer it and hit the high score.
+*   **Talking Point**: "I understood that in a test environment, the metric matters. I built a heuristic layer to maximize the score despite the data quality."
+
+### 2. Delivers Business Value (Adaptability)
+*   **The Win**: An agent that is brittle breaks when codes change. Your agent uses an **Expert (Researcher)** separate from the **Evaluator (Judge)**.
+*   **Talking Point**: "This architecture allows the agent to check *both* 2026 guidelines and historical context. It simulates a senior coder who knows that 'last year we coded it this way, but this year it's that way'."
+
+### 3. Human Understanding (Context Awareness)
+*   **The Win**: You solved the "outdated code" problem not by hand-fixing datasets, but by teaching the agent to "realize" the discrepancy.
+*   **Talking Point**: "My implementation shows human understanding because it tackles the *ambiguity*. It parses the PDF, researches the codes, and *chooses* the best option based on context—just like a human would."
 
 ## 2. Code & Architecture Questions
 
