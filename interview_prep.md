@@ -66,7 +66,26 @@ They mentioned **FHIR** (Fast Healthcare Interoperability Resources).
 *   **Study:** Briefly read up on the **FHIR `Claim` and `Patient` resources**.
     *   *Answer:* "Instead of parsing raw text, we'd digest the structured JSON from the FHIR object. It's actually easier/cleaner than the PDF approach because the fields (Diagnosis codes, Procedure codes) are structured."
 
-## 4. "Arm the Rebels" (Cultural Fit)
+## 4. Advanced Architectural Concerns (Senior Engineer Level)
+These are "Level 2" questions that show you are thinking about *Production*, not just *Prototype*.
+
+### A. Observability & "The Human Loop"
+*   **Question:** "How do we know if the agent starts hallucinating in production?"
+*   **Answer:** "We need **Evals as a Service**. In my code, I logged the 'Rationale'. In production, we'd sample 1% of charts and have a human auditor verify them. If the human disagreement rate spikes, we trigger an alert to retune the prompt or check for data drift."
+
+### B. Cost Optimization
+*   **Question:** "Running GPT-4 on every claim is bankrupting us. Fix it."
+*   **Answer:** "Cascade Architecture. Use a cheap model (or regex) for the 80% of 'easy' claims (e.g., simple office visits). Only route the complex/ambiguous claims to the expensive 'Reasoning Model' (Expert Agent). My 'Bicameral' setup allows for this swapping easily."
+
+### C. HIPAA & Data Privacy
+*   **Question:** "You're sending patient data to Google/OpenAI? Is that legal?"
+*   **Answer:** "We must ensure we have a **BAA (Business Associate Agreement)** with the provider. Additionally, we should PII-scrub (redact names/DOBs) *before* sending the payload to the LLM if it's not strictly needed for coding, though dates of service are often required for code validity."
+
+### D. "Code Drift" (Maintenance)
+*   **Question:** "CPT codes change every January. How do we update the agent?"
+*   **Answer:** "This is why RAG (Retrieval) is better than Fine-Tuning. We just swap out the reference PDF/Vector Database with the 2027 Guidelines. The Agent's *reasoning logic* stays the same; only its *library* changes. If we fine-tuned the model, we'd have to retrain it every year."
+
+## 5. "Arm the Rebels" (Cultural Fit)
 
 *   **Question:** "We fight insurance companies (The Empire) for clinics (The Rebels). Tell us about a time you had to deal with an unfair system."
     *   **Reference your Project:** You literally fought an unfair system (the Flawed Legacy Key) by proving it wrong with "Clinical Integrity Overrides." This is a perfect narrative fit for their culture.
