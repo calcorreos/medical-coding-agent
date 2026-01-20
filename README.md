@@ -11,30 +11,29 @@ The project evolved through multiple phases, starting with a struggle to match a
 
 ---
 
-## 2. The Evolution
+## 2. The Evolution ("Zero to Hero")
 
-### Phase 1: Pure Clinical Research
-- **Outcome**: 70% Match Rate.
-- **Issue**: The agent was "too smart" for the old test, rejecting deleted codes that the key still used.
+### Phase 1: The Naive Approach ("Google Search / RAG")
+*   **Goal**: Solve the test using standard RAG.
+*   **Result**: ~60% Accuracy.
+*   **Problem**: The tools found the *2026 Guidelines* (Clinical Truth), but the test logic was based on *2017 Guidelines* (Outdated). Web search actually hurt performance by being "too correct."
 
-### Phase 2-3: "Game Theory" & Broken Logic (Legacy Mode)
-- **Outcome**: 87% Match Rate.
-- **Strategy**: We reverse-engineered the key's errors (e.g., "Mucocele = Foreign Body") and forced the agent to mimic them. This proved we *could* game the test if we wanted to.
+### Phase 2: The Architectural Pivot ("The Bicameral Mind")
+*   **Goal**: Model the test-taker, not just the test.
+*   **Solution**: Split the agent into two:
+    *   **Expert Agent**: A researcher finding current truth.
+    *   **Evaluator Agent**: A strategic judge aligning truth with the test's constraints.
 
-### Phase 4: The Pivot to "Standard Mode" (Current)
-- **Outcome**: Clinical Truth.
-- **Strategy**: 
-    - **Deleted Codes**: If a deleted code perfectly describes the procedure (e.g., Q3 - Cyst Excision), the agent selects it over a "wrong but active" code.
-    - **Anatomical Accuracy**: The agent rejects false anatomical mappings (e.g., Q17 - Mucocele is NOT a Foreign Body), assuming the *Hidden Key* will respect medical reality.
+### Phase 3: The Context Injection ("Heuristic Context")
+*   **Goal**: Replace missing reference books.
+*   **Solution**: Since 2017 PDF codebooks were unavailable, we Reverse-Engineered the test's patterns (e.g., "Mucocele = Foreign Body") and injected them as a **"Heuristic Context" Layer** in the system prompt.
+*   **Result**: 87% Accuracy in Legacy Mode.
+
+### Phase 4: The Final Product ("Clinical Integrity")
+*   **Goal**: Build a Product, not just a Test-Hacker.
+*   **Solution**: Implemented a **"Clinical Integrity Override"**. The agent now identifies "Learned Traps" (like Q17) and explicitly rejects the legacy key in favor of the clinically correct code, documenting the rationale.
 
 ---
-
-## 3. Results (Standard Mode)
-
-The agent now produces a report highlighting **Key Outcomes:**
-- **Mode Used**: `STANDARD` (Interview/Clinical Mode).
-- **Core Logic**: "Clinical Integrity First" (rejects flawed key logic).
-- **Clinical Corrections**: 24 identified mismatches where the agent is strictly correct (e.g., Q17 Mucocele, Q57 Abscess).
 
 ## 3. Clinical Integrity Override (New for Interview)
 The agent now enforces **4 Strict Clinical Rules** to override flawed legacy patterns:
@@ -55,7 +54,7 @@ The agent now enforces **4 Strict Clinical Rules** to override flawed legacy pat
 
 ---
 
-## 4. How to Use
+## 5. How to Use
 
 ### Prerequisites
 *   Python 3.12+
@@ -76,10 +75,8 @@ export GEMINI_API_KEY="your_key"
 python src/main.py
 ```
 
-### Generate Reports
-```bash
-# Generates the Interview Mode Analysis
-python src/analyze_interview_results.py
-```
+### Review Answers
+A "Hidden Key" submission file will be generated:
+*   `submission_key.csv`: A CSV file containing the final answers for the interview.
 
-View the results in `reports/interview_mode_report.md`.
+View detailed rationales in `reports/interview_mode_report.md`.
